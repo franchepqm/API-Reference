@@ -1,0 +1,27 @@
+Paquete	Descripción
+@firebase/analytics. →	SDK web de Firebase Analytics. Este SDK no funciona en un entorno de Node.js.
+@firebase/app →	App de Firebase
+@firebase/app-check. →	El SDK web de la Verificación de aplicaciones de Firebase.
+@firebase/auth. →	Firebase Authentication
+@firebase/base de datos →	Firebase Realtime Database
+@firebase/firestore. →	Cloud Firestore
+@firebase/funciones →	Cloud Functions para Firebase
+@firebase/instalaciones →	El SDK web de instalaciones de Firebase. Este SDK no funciona en un entorno de Node.js.
+@firebase/mensaje →	El SDK web de Firebase Cloud Messaging. Este SDK no funciona en un entorno de Node.js.
+@firebase/rendimiento →	El SDK web de Firebase Performance Monitoring. Este SDK no funciona en un entorno de Node.js.
+@firebase/remote-config →	El SDK web de Firebase Remote Config. Este SDK no funciona en un entorno de Node.js.
+@firebase/storage →	Cloud Storage para Firebase
+@firebase/vertexai-preview →	El SDK web de Vertex AI para Firebase.
+
+En resumen podemos agrupar las funciones las cuales y me parecio IMPORTANTE aclara las cuales 
+NO admiten o funcionan en un entorno de Node.Js las enumeraremos a continuacion:
+1. @firebase/analytics
+2. @firebase/instalaciones
+3. @firebase/mensaje
+4. @firebase/rendimiento
+5. @firebase/remote-config
+
+Siguiendo un testing de Firebase  como usuario de el, en cuanto a analytics, siguiendo la informacion que nos brinda desde su Dashboard
+podria decirse ques si funciona la toma de datos de ingreso de trafico en el sitio, aunque en esta documentacion hace aclaracion que no
+deberia funcionar parcial o totalmente Analitycs utilizando Node.js en WEB, podria deberse de una funcion a obviar en cuanto a la importacion
+de Firebase en nuestro firebaseconect.js
