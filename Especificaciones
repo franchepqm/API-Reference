@@ -15,12 +15,13 @@ Paquete	Descripción
 
 Agruparemos tambien funcionas las cuales SI Admite la conexion con Node.Js
 1. @firebase/app
-2. @firebase/auth
-3. @firebase/base de datos
-4. @firebase/firestore
-5. @firebase/funciones
-6. @firebase/storage
-7. @firebase/vertexai-preview
+2. @firebase/app-check
+3. @firebase/auth
+4. @firebase/base de datos
+5. @firebase/firestore
+6. @firebase/funciones
+7. @firebase/storage
+8. @firebase/vertexai-preview
 
 En resumen podemos agrupar las funciones las cuales y me parecio IMPORTANTE aclara las cuales 
 NO admiten o funcionan en un entorno de Node.Js las enumeraremos a continuacion:
