@@ -21,6 +21,15 @@ NO admiten o funcionan en un entorno de Node.Js las enumeraremos a continuacion:
 4. @firebase/rendimiento
 5. @firebase/remote-config
 
+Agruparemos tambien funcionas las cuales SI Admite la conexion con Node.Js
+1. @firebase/app
+2. @firebase/auth
+3. @firebase/base de datos
+4. @firebase/firestore
+5. @firebase/funciones
+6. @firebase/storage
+7. @firebase/vertexai-preview
+
 Siguiendo un testing de Firebase  como usuario de el, en cuanto a analytics, siguiendo la informacion que nos brinda desde su Dashboard
 podria decirse ques si funciona la toma de datos de ingreso de trafico en el sitio, aunque en esta documentacion hace aclaracion que no
 deberia funcionar parcial o totalmente Analitycs utilizando Node.js en WEB, podria deberse de una funcion a obviar en cuanto a la importacion
